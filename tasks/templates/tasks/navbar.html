@@ -1,0 +1,37 @@
+<nav class="navbar navbar-expand-lg " style="background-color: #169397">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="{% url 'tasks' %}"><b><h4>&#9744; Django Task Manager</h4></b></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-4 mb-lg-1">
+        
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'task-create' %}"><b><h4>Add Task</h4></b></a>
+          </li>
+          &nbsp;
+      
+          &nbsp;
+
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'logout'%}"><b><h4>Logout</h4></b></a>
+          </li>
+          &nbsp;
+          &nbsp;
+      
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'register'%}"><b><h4>Register</h4></b></a>
+          </li>
+          &nbsp;
+          &nbsp;
+      
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'login'%}"><b><h4>Login</h4></b></a>
+          </li>
+         
+        </ul>
+       
+      </div>
+    </div>
+  </nav>
